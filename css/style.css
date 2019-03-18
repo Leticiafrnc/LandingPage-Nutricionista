@@ -307,8 +307,8 @@ section.depoimentos .depoimento-sozinho{
 }
 .img-mosaico-social{
 	float: left;
-	width: calc(100% / 9);
-	padding-top: calc(100% / 9);
+	width: calc(100% / 7);
+	padding-top: calc(100% / 7);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	border: 6px solid white;
