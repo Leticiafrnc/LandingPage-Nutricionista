@@ -5,6 +5,45 @@
 	font-family:'Montserrat', sans-serif;
 }
 
+/*Estilo para o plugin slick*/
+.slick-dotted ul{
+		list-style-type: none;
+		text-align: center;
+		position: relative;
+		margin-top: 50px;
+	}
+
+	.slick-dotted li{
+		display: inline-block;
+		margin:0 7px;
+	}
+
+	.slick-dotted button:focus{
+		outline: 0;
+	}
+
+	.slick-dotted li button{
+		width: 16px;
+		height: 16px;
+		border-radius: 8px;
+		color: #d8d8d8;
+		border-width: 0;
+		background: #d8d8d8;
+		opacity: 1;
+		cursor: pointer;
+	}
+
+	li.slick-active button{
+		background: #688293;
+		color: #688293;
+	}
+
+	.slick-slide:focus{outline: none;}
+	
+
+/**Fim do estilo para o plugin**/
+
+
 .clear{
 	clear: both;
 }
@@ -219,7 +258,7 @@ section.perfil-container .texto-perfil p{
 /*Videos*/
 
 section.videos{
-	padding:50px 0;
+	padding:80px 0;
 }
 
 section.videos .box-video{
@@ -240,39 +279,39 @@ section.videos iframe{
 
 /*Depoimentos*/
 
-section.depoimentos >h2 {
+
+section.depoimentos h2 {
 	text-align: center;
+	padding-top: 40px;
 	color: #518649;
-	text-align: center;
 	font-size: 18px; 
 }
 section.depoimentos .container{
-	padding-left: 30px;
-	max-width: 500px;
+	padding: 20px 0;
+	max-width: 400px;
 }
 
 section.depoimentos .depoimento-sozinho{
-	padding-top: 10px;
+	text-align: center;
 	width: 100%;
-	float: left;
+	padding: 0 2%;
 }
 
 .depoimento-sozinho quote{
 
-	padding-top: 10px;
 	font-size: 15px;
 	color:  #98B854;
 
 }
 .depoimento-sozinho .nome-depoimento{
 	padding: 19px 0;
-	text-align: center;
+	
 }
 .nome-depoimento img{
 	width: 32px;
 	height: 32px;
+	display: inline-block;
 	border-radius: 16px;
-	align-items: center;
 }
 
 .nome-depoimento span{
@@ -328,7 +367,7 @@ section.depoimentos .depoimento-sozinho{
 }
 
 footer{
-	padding: 40px 2%;
+	padding: 70px 2%;
 	background-color: white;
 }
 
@@ -435,6 +474,7 @@ footer .footer-item{
 
 	section.videos{
 		text-align: center;
+
 }
 
 	section.videos .box-video{
